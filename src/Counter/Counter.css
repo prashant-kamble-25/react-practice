@@ -1,0 +1,35 @@
+.main-div{
+    border: 1px solid rgb(180, 127, 233);
+    border-radius: 20px;
+    background-color: rgb(226, 212, 240);
+    height:300px;
+    width: 450px;
+}
+.main-div button{
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #f7f6f4;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin: 10px;
+}
+.main-div button :hover{
+    color: black;
+}
+.increase-btn{
+    color: green;
+}
+.increase-btn :hover{
+    background-color: rgb(92, 192, 159);
+    
+}
+.decrease-btn{
+    color: red;
+}
+.reset-btn{
+    color: blue;
+}
