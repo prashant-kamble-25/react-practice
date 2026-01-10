@@ -28,7 +28,7 @@ function Counter() {
     }
     return (
         <div className="main-div">
-            <h1 style={{ color:"#093f7c"}}>Counter</h1>
+            <h1 style={{ color:"#f7f7f7"}}>Counter</h1>
             <h2 style={{color : color, background : bgColor}}>{count}</h2>
             <div>
                 <button className="increase-btn" onClick={handleIncrease}>Increase</button>

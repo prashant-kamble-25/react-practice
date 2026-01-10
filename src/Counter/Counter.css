@@ -5,7 +5,12 @@
     align-items: center;
     border: 1px solid rgb(180, 127, 233);
     border-radius: 20px;
-    background-color: rgb(201, 167, 233);
+    /* background-color: rgb(201, 167, 233); */
+    background: linear-gradient(90deg,
+                #ff6a00,
+                #ee0979,
+                #8e2de2,
+                #4a00e0);
     height:500px;
     width: 600px;
 }
@@ -42,7 +47,7 @@ h2{
     background-color: #c0e9c6;
 }
 .increase-btn :hover{
-    background-color: rgb(92, 192, 159);
+    background-color: #5cc09f;
     
 }
 .decrease-btn{
